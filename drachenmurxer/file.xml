@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>File</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="file.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/file.xml" />
 		</update>
 	</info>

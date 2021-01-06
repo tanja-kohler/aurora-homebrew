@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items</name>
 		<description>Magische Items - Homebrew</description>
-		<update version="1.0">
+		<update version="1.0.1">
 			<file name="magicitems.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/magicitems.xml" />
 		</update>
 	<files>
