@@ -4,11 +4,11 @@
 	<info>
 		<name>Companions</name>
 		<description>Winter Wölfe und wirds mehr</description>
-		<update version="1.0">
+		<update version="1.0.2">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/companions.xml" />
 		</update>
-	<files>
-
+	</info>
+	
 	<element name="Winter Wolf (Cub)" type="Companion" source="Drachenmurxer" id="ID_TANJA_WINTERWOLF_CUB">
 			<description />
 			<setters>
