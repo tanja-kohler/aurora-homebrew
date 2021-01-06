@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Silver Tuning Fork" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SILVERTUNINGFORK">
+		<description>
+			<p>When struck against a hard surface, a piercing RRRIIINGGGG resounds for up to 1 minute in an area of approximately 30ft.</p>
+			<p>Magic within range is enhanced:</p>
+			<p class="indent">— Spell Saving throws DC gain an additional 1d4</p>
+			<p class="indent">— Magical damage gains 1 additional damage die</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+		
+	<element name="Ring of Communication" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_RINGCOMMUNICATION">
+		<description>
+			<p>Part of a set of two identical rings. While worn they grant the ability to mentally communicate with the wearer of the other ring.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+  
+  	<element name="Cloak of Glistening" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_CLOAKOFGLISTENING">
+		<description>
+			<p>While wearing this cloak, you can use a bonus action to make the cloak glisten in all colors of the rainbow. Grants a +1 bonus to performance.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>	
+		</setters>
+		<rules>
+		<stat name="performance" value="+1"/>
+		</rules>
+	</element>
+
+	<element name="Armreif der Unglückseligkeit" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_ARMREIF_DER_UNGLUECKSELIGKEIT">
+		<description>
+			<p>This item is cursed, it cannot be removed except with Greater Restoration.</p>
+			<p>While Charisma and Strength are reduced by 2, Wisdom, Intelligence, Constitution and Dexterity are improved by 1.</p>
+			<p>The Wearer will loose every bet while wearing it.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">arms</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<stat name="charisma" value="1" />
+			<stat name="intelligence" value="1" />
+			<stat name="constitution" value="1" />
+			<stat name="strength" value="-2" />
+			<stat name="dexterity" value="1" />
+		</rules>
+	</element>
+	
+</elements>

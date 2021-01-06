@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
+    <description>
+      <p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lbs.</set>
+    </setters>
+    </element>
+
+	<element name="Map" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_MAP">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">—</set>
+		</setters>
+	</element>
+	
+	<element name="Small Knife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SMALLKNIFE">
+		<description>
+			<p>A small knife urchins like to keep concealed in their clothes. One can never be too careful after all!</p>
+			<p>Unarmed combat(Str/Dex) with advantage. </p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lbs.</set>
+		</setters>
+	</element>
+
+	<element name="Hat" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_HAT"> 
+		<description>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lbs.</set>
+		</setters>
+	</element>
+
+</elements>
+	

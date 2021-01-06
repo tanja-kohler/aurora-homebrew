@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="sources.xml" url="drachenmurxer/source.xml" />
+		</update>
+	</info>
+	<element name="Drachenmurxer" type="Source" source="Drachenmurxer" id="ID_SOURCE_DRACHENMURXER">
+		<description>
+		</description>
+		<setters>
+			<set name="abbreviation">HBDrachenmurxer</set>
+			<set name="url">Drachenmurxer</set>
+			<set name="official">false</set>
+			<set name="core">false</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

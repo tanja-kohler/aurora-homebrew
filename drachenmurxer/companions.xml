@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Winter Wolf (Cub)" type="Companion" source="Drachenmurxer" id="ID_TANJA_WINTERWOLF_CUB">
+			<description />
+			<setters>
+				<set name="strength">14</set>
+				<set name="dexterity">13</set>
+				<set name="constitution">14</set>
+				<set name="intelligence">7</set>
+				<set name="wisdom">12</set>
+				<set name="charisma">8</set>
+				<set name="ac">10 (natural armor)</set>
+				<set name="hp">13</set>
+				<set name="speed">30 ft.</set>
+				<set name="languages">Common, Elvish</set>
+				<set name="challenge">—</set>
+				<set name="immunities">Cold</set>
+				<set name="hd">d10</set>
+				<set name="skills">Perception +5</set>
+				<set name="type">Monstrosity</set>
+				<set name="size">Medium</set>
+				<set name="alignment">unaligned</set>
+				<set name="traits">ID_DRACHENMURXER_COMPANION_TRAIT_WINTERWOLF_KEEN_HEARING_AND_SMELL, ID_DRACHENMURXER_COMPANION_SNOWCAMOUFLAGE</set>
+				<set name="actions">ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_CUB</set>
+			</setters>
+			<rules>
+				<stat name="companion:ac" value="10" />
+				<stat name="companion:hp:max" value="13" bonus="base" />
+				<stat name="companion:speed" value="30" bonus="base" />
+				<stat name="companion:perception:proficiency" value="+4"/>
+			</rules>
+		</element>
+		<element name="Keen Hearing and Smell" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_TRAIT_WINTERWOLF_KEEN_HEARING_AND_SMELL">
+			<description>
+				<p>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+			</description>
+			<sheet>
+				<description>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+			</sheet>
+		</element>
+		<element name="Snow Camouflage" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_SNOWCAMOUFLAGE">
+			<description>
+				<p>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</p>
+			</description>
+			<sheet>
+				<description>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</description>
+			</sheet>
+		</element>
+		<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_CUB">
+		<description>
+			<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 2 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 2 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+	
+	<element name="Winter Wolf (Young)" type="Companion" source="Drachenmurxer" id="ID_DRACHENMURXER_WINTERWOLF_YOUNG">
+		<description />
+		<setters>
+			<set name="strength">18</set>
+			<set name="dexterity">13</set>
+			<set name="constitution">14</set>
+			<set name="intelligence">7</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">8</set>
+			<set name="ac">10 (natural armor)</set>
+			<set name="hp">13</set>
+			<set name="speed">50 ft.</set>
+			<set name="languages">Common, Elvish</set>
+			<set name="challenge">—</set>
+			<set name="immunities">Cold</set>
+			<set name="senses">passive Perception 15</set>
+			<set name="hd">d10</set>
+			<set name="skills">Perception +5, Stealth +3</set>
+			<set name="type">Monstrosity</set>
+			<set name="size">Large</set>
+			<set name="alignment">unaligned</set>
+			<set name="traits">ID_DRACHENMURXER_COMPANION_TRAIT_WINTERWOLF_KEEN_HEARING_AND_SMELL, ID_DRACHENMURXER_COMPANION_SNOWCAMOUFLAGE</set>
+			<set name="actions">ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_YOUNG</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" />
+			<stat name="companion:hp:max" value="13" bonus="base" />
+			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:perception:proficiency" value="+4"/>
+		</rules>
+	</element>
+		<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_YOUNG">
+		<description>
+			<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+	
+	<element name="Winter Wolf" type="Companion" source="Drachenmurxer" id="ID_DRACHENMURXER_WINTERWOLF">
+		<description />
+		<setters>
+			<set name="strength">18</set>
+			<set name="dexterity">13</set>
+			<set name="constitution">14</set>
+			<set name="intelligence">7</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">8</set>
+			<set name="ac">13 (natural armor)</set>
+			<set name="hp">75</set>
+			<set name="speed">50 ft.</set>
+			<set name="languages">Owner</set>
+			<set name="challenge">—</set>
+			<set name="immunities">Cold</set>
+			<set name="senses">passive Perception 15</set>
+			<set name="hd">d10</set>
+			<set name="skills">Perception +5, Stealth +3</set>
+			<set name="type">Monstrosity</set>
+			<set name="size">Large</set>
+			<set name="alignment">unaligned</set>
+			<set name="traits">ID_DRACHENMURXER_COMPANION_TRAIT_WINTERWOLF_KEEN_HEARING_AND_SMELL, ID_DRACHENMURXER_COMPANION_PACKTACTICS, ID_DRACHENMURXER_COMPANION_SNOWCAMOUFLAGE</set>
+			<set name="actions">ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE, ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_COLDBREATH</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" />
+			<stat name="companion:hp:max" value="75" bonus="base" />
+			<stat name="companion:speed" value="50" bonus="base" />
+			<stat name="companion:perception:proficiency" value="+4"/>
+			<stat name="companion:stealth:proficiency" value="+2"/>
+		</rules>
+	</element>
+		<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE">
+		<description>
+			<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</description>
+		</sheet>
+		</element>
+		<element name="Pack Tactics" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_PACKTACTICS">
+			<description>
+				<p>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>
+			</description>
+			<sheet>
+				<description>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</description>
+			</sheet>
+		</element>
+		<element name="Cold Breath (Recharge 5-6)" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_COLDBREATH">
+			<description>
+				<p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 4d8 cold damage on a failed save, or half as much damage on a successful one.</p>
+			</description>
+			<sheet>
+				<description>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 4d8 cold damage on a failed save, or half as much damage on a successful one.</description>
+			</sheet>
+		</element>
+	
+</elements>
+	
