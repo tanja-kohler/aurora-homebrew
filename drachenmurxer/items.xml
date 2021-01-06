@@ -3,20 +3,20 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.1">
+		<update version="1.0.3">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	</info>
 	
 	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
-    <description>
-      <p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
-    </description>
-    <setters>
-      <set name="category">Musical Instruments</set>
-      <set name="cost" currency="gp">0</set>
-      <set name="weight" lb="0">0 lbs.</set>
-    </setters>
+		<description>
+			<p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lbs.</set>
+		</setters>
     </element>
 
 	<element name="Map" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_MAP">
@@ -43,7 +43,7 @@
 	</element>
 
 	<element name="Hat" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_HAT"> 
-		<description>
+		<description> <p>A fancy hat</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>

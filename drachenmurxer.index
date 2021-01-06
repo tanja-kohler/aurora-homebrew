@@ -3,7 +3,7 @@
 	<info>
 		<name>Homebrew der Drachenmurxer</name>
 		<description>Homebrew der Drachenmurxer: Leopold (Paladin), Rurik (Cleric), Xixi (Wizard), Fynn (Bard), Shedinn (Fighter)</description>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="drachenmurxer.index" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer.index" />
 		</update>
 	</info>

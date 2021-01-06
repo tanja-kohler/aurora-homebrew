@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/source.xml" />
 		</update>
 	</info>
@@ -10,7 +10,7 @@
 		<description>
 		</description>
 		<setters>
-			<set name="abbreviation">HBDrachenmurxer</set>
+			<set name="abbreviation">DRMX</set>
 			<set name="url">Drachenmurxer</set>
 			<set name="official">false</set>
 			<set name="core">false</set>

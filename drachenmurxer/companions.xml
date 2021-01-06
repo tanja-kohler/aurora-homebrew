@@ -4,7 +4,7 @@
 	<info>
 		<name>Companions</name>
 		<description>Winter Wölfe und wirds mehr</description>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/companions.xml" />
 		</update>
 	</info>
@@ -39,23 +39,23 @@
 				<stat name="companion:perception:proficiency" value="+4"/>
 			</rules>
 		</element>
-		<element name="Keen Hearing and Smell" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_TRAIT_WINTERWOLF_KEEN_HEARING_AND_SMELL">
-			<description>
-				<p>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
-			</description>
-			<sheet>
-				<description>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
-			</sheet>
-		</element>
-		<element name="Snow Camouflage" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_SNOWCAMOUFLAGE">
-			<description>
-				<p>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</p>
-			</description>
-			<sheet>
-				<description>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</description>
-			</sheet>
-		</element>
-		<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_CUB">
+	<element name="Keen Hearing and Smell" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_TRAIT_WINTERWOLF_KEEN_HEARING_AND_SMELL">
+		<description>
+			<p>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+	<element name="Snow Camouflage" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_SNOWCAMOUFLAGE">
+		<description>
+			<p>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</p>
+		</description>
+		<sheet>
+			<description>The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_CUB">
 		<description>
 			<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 2 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</p>
 		</description>
@@ -95,7 +95,7 @@
 			<stat name="companion:perception:proficiency" value="+4"/>
 		</rules>
 	</element>
-		<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_YOUNG">
+	<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_YOUNG">
 		<description>
 			<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>
 		</description>
@@ -136,30 +136,30 @@
 			<stat name="companion:stealth:proficiency" value="+2"/>
 		</rules>
 	</element>
-		<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE">
+	<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE">
 		<description>
 			<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>
 		</description>
 		<sheet>
 			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</description>
 		</sheet>
-		</element>
-		<element name="Pack Tactics" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_PACKTACTICS">
-			<description>
-				<p>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>
-			</description>
-			<sheet>
-				<description>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</description>
-			</sheet>
-		</element>
-		<element name="Cold Breath (Recharge 5-6)" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_COLDBREATH">
-			<description>
-				<p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 4d8 cold damage on a failed save, or half as much damage on a successful one.</p>
-			</description>
-			<sheet>
-				<description>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 4d8 cold damage on a failed save, or half as much damage on a successful one.</description>
-			</sheet>
-		</element>
+	</element>
+	<element name="Pack Tactics" type="Companion Trait" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_PACKTACTICS">
+		<description>
+			<p>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>
+		</description>
+		<sheet>
+			<description>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</description>
+		</sheet>
+	</element>
+	<element name="Cold Breath (Recharge 5-6)" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_COLDBREATH">
+		<description>
+			<p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 4d8 cold damage on a failed save, or half as much damage on a successful one.</p>
+		</description>
+		<sheet>
+			<description>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 4d8 cold damage on a failed save, or half as much damage on a successful one.</description>
+		</sheet>
+	</element>
 	
 </elements>
 	
