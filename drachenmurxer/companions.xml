@@ -4,7 +4,7 @@
 	<info>
 		<name>Companions</name>
 		<description>Winter Wölfe und wirds mehr</description>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/companions.xml" />
 		</update>
 	</info>
@@ -21,7 +21,7 @@
 				<set name="ac">10 (natural armor)</set>
 				<set name="hp">13</set>
 				<set name="speed">30 ft.</set>
-				<set name="languages">Common, Elvish</set>
+				<set name="languages">Owner</set>
 				<set name="challenge">—</set>
 				<set name="immunities">Cold</set>
 				<set name="hd">d10</set>
@@ -76,7 +76,7 @@
 			<set name="ac">10 (natural armor)</set>
 			<set name="hp">13</set>
 			<set name="speed">50 ft.</set>
-			<set name="languages">Common, Elvish</set>
+			<set name="languages">Owner</set>
 			<set name="challenge">—</set>
 			<set name="immunities">Cold</set>
 			<set name="senses">passive Perception 15</set>
