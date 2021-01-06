@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+	<info>
+		<name>Items</name>
+		<description>Nicht magische Gegenstände</description>
+		<update version="1.0">
+			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
+		</update>
+	<files>
+	
 	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
     <description>
       <p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>

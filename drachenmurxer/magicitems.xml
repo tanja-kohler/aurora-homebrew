@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+	<info>
+		<name>Magic Items</name>
+		<description>Magische Items - Homebrew</description>
+		<update version="1.0">
+			<file name="magicitems.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/magicitems.xml" />
+		</update>
+	<files>
+	
 	<element name="Silver Tuning Fork" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SILVERTUNINGFORK">
 		<description>
 			<p>When struck against a hard surface, a piercing RRRIIINGGGG resounds for up to 1 minute in an area of approximately 30ft.</p>
