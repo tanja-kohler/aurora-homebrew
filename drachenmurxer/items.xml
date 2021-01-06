@@ -3,7 +3,7 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.1">
+		<update version="1.0">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	<files>
