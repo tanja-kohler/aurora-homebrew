@@ -4,10 +4,10 @@
 		<name>Homebrew der Drachenmurxer</name>
 		<description>Homebrew der Drachenmurxer Gruppe: Leopold (Paladin), Rurik (Cleric), Xixi (Wizard), Fynn (Bard), Shedinn (Fighter)</description>
 		<update version="0.2.5">
-			<file name="drachenmurxer.index" url="drachenmurxer.index" />
+			<file name="drachenmurxer.index" url="https://github.com/tanja-kohler/aurora-homebrew/drachenmurxer.index" />
 		</update>
 	<files>
-		<file name="source.xml" url="drachenmurxer/source.xml" />
+		<file name="source.xml" url="https://github.com/tanja-kohler/aurora-homebrew/drachenmurxer/source.xml" />
 	</files>
 	
 	</info>

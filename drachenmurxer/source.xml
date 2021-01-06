@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="sources.xml" url="drachenmurxer/source.xml" />
+			<file name="sources.xml" url="https://github.com/tanja-kohler/aurora-homebrew//drachenmurxer/source.xml" />
 		</update>
 	</info>
 	<element name="Drachenmurxer" type="Source" source="Drachenmurxer" id="ID_SOURCE_DRACHENMURXER">
