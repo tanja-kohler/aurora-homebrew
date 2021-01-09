@@ -3,7 +3,7 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	</info>
@@ -17,7 +17,18 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lbs.</set>
 		</setters>
-    </element>
+        </element>
+	
+	<element name="Book" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_BOOK">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lbs.</set>
+		</setters>
+	</element>
 
 	<element name="Map" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_MAP">
 		<description>
@@ -60,6 +71,19 @@
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="1">1 lbs.</set>
+		</setters>
+	</element>
+	
+	<element name="Trudust Blüten" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TRUDUST">
+		<description>
+			<p>Dieses Schlingkraut welches sich häufig an tropischen Bäumen befindet, wird wegen seiner starken, heilkräftigen Wirkung geschätzt. Die roten lanzettförmigen Blüten sind der einzige Teil der Pflanze, der zu Heilzwecken verwendet wird. Die Blüten können sowohl frisch als auch getrocknet zu einem Aufguss verarbeitet werden. 
+			Getrocknete Blüten halten sich etwa sechs Monate lang. Wird der Aufguss mit  Alkohol versetzt, so kann er zwei Jahre lang aufbewahrt werden – Alchemie DC 20.</p>
+			<p>Wirkung: Ein Tee aus 3 Blüten bringt 2W6+2 HP</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">—</set>
 		</setters>
 	</element>
 
