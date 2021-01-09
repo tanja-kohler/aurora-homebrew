@@ -3,7 +3,7 @@
 	<info>
 		<name>Homebrew der Drachenmurxer</name>
 		<description>Homebrew der Drachenmurxer: Leopold (Paladin), Rurik (Cleric), Xixi (Wizard), Fynn (Bard), Shedinn (Fighter)</description>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="drachenmurxer.index" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer.index" />
 		</update>
 	</info>
@@ -13,6 +13,8 @@
 		<file name="companions.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/companions.xml" />
 		<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		<file name="magicitems.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/magicitems.xml" />
+		<file name="otherstuff.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/otherstuff.xml" />
 	</files>
+	
 	
 </index>
