@@ -28,6 +28,17 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">—</set>
 		</setters>
+	</element>	
+		
+	<element name="Book" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_BOOK">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lbs.</set>
+		</setters>
 	</element>
 	
 	<element name="Small Knife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SMALLKNIFE">
