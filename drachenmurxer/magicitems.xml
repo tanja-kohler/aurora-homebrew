@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items</name>
 		<description>Magische Items - Homebrew</description>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="magicitems.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/magicitems.xml" />
 		</update>
 	</info>
@@ -16,7 +16,7 @@
 			<p class="indent">— Magical damage gains 1 additional damage die</p>
 		</description>
 		<setters>
-			<set name="category">Wondrous Items</set>
+			<set name="category">Drachenmurxer Magic Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
@@ -28,7 +28,7 @@
 			<p>Part of a set of two identical rings. While worn they grant the ability to mentally communicate with the wearer of the other ring.</p>
 		</description>
 		<setters>
-			<set name="category">Rings</set>
+			<set name="category">Drachenmurxer Magic Item</set>
 			<set name="type">Ring</set>
 			<set name="slot">ring</set>
 			<set name="attunement">true</set>
@@ -41,7 +41,7 @@
 			<p>While wearing this cloak, you can use a bonus action to make the cloak glisten in all colors of the rainbow. Grants a +1 bonus to performance.</p>
 		</description>
 		<setters>
-			<set name="category">Wondrous Items</set>
+			<set name="category">Drachenmurxer Magic Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">shoulders</set>
@@ -54,6 +54,21 @@
 		</rules>
 	</element>
 
+	<element name="Diamantstaub Pouch" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_DIAMOND_DUST">
+		<description>
+			<p>Ein Beutel gefüllt mit Diamantstaub im Wert von 250 G.</p>
+			<p class="indent">— Füllt sich wenn nicht komplett leer nach einer long rest</p>
+			<p class="indent">— Füllt sich wenn komplett leer nach 1d4 Tagen</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="cost" currency="gp">75000</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="weight" lb="1">1 lbs.</set>
+		</setters>
+	</element>
+
 	<element name="Armreif der Unglückseligkeit" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_ARMREIF_DER_UNGLUECKSELIGKEIT">
 		<description>
 			<p>This item is cursed, it cannot be removed except with Greater Restoration.</p>
@@ -61,7 +76,7 @@
 			<p>The Wearer will loose every bet while wearing it.</p>
 		</description>
 		<setters>
-			<set name="category">Wondrous Items</set>
+			<set name="category">Drachenmurxer Magic Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">arms</set>
@@ -71,7 +86,7 @@
 		</setters>
 		<rules>
 			<stat name="wisdom" value="1" />
-			<stat name="charisma" value="1" />
+			<stat name="charisma" value="-2" />
 			<stat name="intelligence" value="1" />
 			<stat name="constitution" value="1" />
 			<stat name="strength" value="-2" />

@@ -3,7 +3,7 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.4">
+		<update version="1.0.5">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
 			<p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
 		</description>
 		<setters>
-			<set name="category">Musical Instruments</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lbs.</set>
 		</setters>
@@ -24,7 +24,7 @@
 			<p></p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="2">2 lbs.</set>
 		</setters>
@@ -35,30 +35,54 @@
 			<p></p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">—</set>
 		</setters>
 	</element>	
-		
-	<element name="Book" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_BOOK">
+	
+	<element name="Kristallauge" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_CRYSTAL_EYE">
 		<description>
-			<p></p>
+			<p>Ein Auge aus geschliffenem Kristall, durchscheinend mit Blauer Iris.</p>
+			<p>Das Emblem von Vanyr (Ein offnes Buch vor einer Sonne) ist darin zu sehen. (Spellcasting focus für Clerics von Vanyr)</p>
+			<p>Kann auch für den Spell Clairvoyance verwendet werden.</p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="2">2 lbs.</set>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">0 lbs.</set>
 		</setters>
 	</element>
 	
+	<element name="Perle (für Identify)" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_PEARL">
+		<description>
+			<p>Eine glänzende Perle, nicht ganz rund, aber mit wunderbar glatter Oberfläche</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">0 lbs.</set>
+		</setters>
+	</element>
+	
+	<element name="Knochenset" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_AUGURY_BONES">
+		<description>
+			<p>Ein Set aus Wirbelknochen mit verschiedenen Symbolen darauf. Wird zum Wahrsagen verwendet.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="0">0 lbs.</set>
+		</setters>
+	</element>
+
 	<element name="Small Knife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SMALLKNIFE">
 		<description>
 			<p>A small knife urchins like to keep concealed in their clothes. One can never be too careful after all!</p>
 			<p>Unarmed combat(Str/Dex) with advantage. </p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="1">1 lbs.</set>
 		</setters>
@@ -68,7 +92,7 @@
 		<description> <p>A fancy hat</p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="1">1 lbs.</set>
 		</setters>
@@ -81,7 +105,7 @@
 			<p>Wirkung: Ein Tee aus 3 Blüten bringt 2W6+2 HP</p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">—</set>
 		</setters>
