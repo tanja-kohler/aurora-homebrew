@@ -3,7 +3,7 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.5">
+		<update version="1.0.6">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	</info>
@@ -108,8 +108,20 @@
 			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
+	<element name="Wolf Treats" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TREATS">
+		<description>
+			<p>A bag of dried meat and animal parts for wolves to chew on and enjoy</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">1 lbs.</set>
+		</setters>
+    </element>
 
 </elements>
 	
