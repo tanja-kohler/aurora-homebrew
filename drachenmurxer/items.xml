@@ -100,7 +100,7 @@
 	
 	<element name="Trudust Blüten" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TRUDUST">
 		<description>
-			<p>Dieses Schlingkraut welches sich häufig an tropischen Bäumen befindet, wird wegen seiner starken, heilkräftigen Wirkung geschätzt. Die roten lanzettförmigen Blüten sind der einzige Teil der Pflanze, der zu Heilzwecken verwendet wird. Die Blüten können sowohl frisch als auch getrocknet zu einem Aufguss verarbeitet werden. 
+			<p>Dieses Schlingkraut, welches sich häufig an tropischen Bäumen befindet, wird wegen seiner starken, heilkräftigen Wirkung geschätzt. Die roten lanzettförmigen Blüten sind der einzige Teil der Pflanze, der zu Heilzwecken verwendet wird. Die Blüten können sowohl frisch als auch getrocknet zu einem Aufguss verarbeitet werden. 
 			Getrocknete Blüten halten sich etwa sechs Monate lang. Wird der Aufguss mit  Alkohol versetzt, so kann er zwei Jahre lang aufbewahrt werden – Alchemie DC 20.</p>
 			<p>Wirkung: Ein Tee aus 3 Blüten bringt 2W6+2 HP</p>
 		</description>
