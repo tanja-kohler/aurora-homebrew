@@ -8,86 +8,6 @@
 		</update>
 	</info>
 	
-	<element name="Silver Tuning Fork" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SILVERTUNINGFORK">
-		<description>
-			<p>When struck against a hard surface, a piercing RRRIIINGGGG resounds for up to 1 minute in an area of approximately 30ft.</p>
-			<p>Magic within range is enhanced:</p>
-			<p class="indent">— Spell Saving throws DC gain an additional 1d4</p>
-			<p class="indent">— Magical damage gains 1 additional damage die</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Magic Item</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Rare</set>
-		</setters>
-	</element>
-		
-	<element name="Ring of Communication" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_RINGCOMMUNICATION">
-		<description>
-			<p>Part of a set of two identical rings. While worn they grant the ability to mentally communicate with the wearer of the other ring.</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Magic Item</set>
-			<set name="type">Ring</set>
-			<set name="slot">ring</set>
-			<set name="attunement">true</set>
-			<set name="rarity">Uncommon</set>
-		</setters>
-	</element>
-  
-  	<element name="Cloak of Glistening" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_CLOAKOFGLISTENING">
-		<description>
-			<p>While wearing this cloak, you can use a bonus action to make the cloak glisten in all colors of the rainbow. Grants a +1 bonus to performance.</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Magic Item</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
-			<set name="slot">shoulders</set>
-			<set name="type">Wondrous Item</set>
-			<set name="attunement">true</set>
-			<set name="rarity">Uncommon</set>	
-		</setters>
-		<rules>
-		<stat name="performance" value="+1"/>
-		</rules>
-	</element>
-
-	<element name="Refilling Pouch of Diamond Dust" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_DIAMOND_DUST">
-		<description>
-			<p>A pouch filled with diamond dust worth 250 gp</p>
-			<p class="indent">— if not completely empty the pouch refills after a long rest </p>
-			<p class="indent">— if completely empty the pouch refills after 1d4 days</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Magic Item</set>
-			<set name="cost" currency="gp">75000</set>
-			<set name="rarity">Legendary</set>
-			<set name="attunement">true</set>
-			<set name="weight" lb="1">1 lbs.</set>
-		</setters>
-	</element>
-	
-	<element name="Spider Staff" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SPIDERSTAFF">
-		<description>
-			<p>The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack. </p>
-			<p>The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required. </p>
-			<p>The staff regains 1d6 + 4 expended charges each day at dusk. If you expend the staff's last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed. </p>
-		</description>
-		<setters>
-			<set name="category">Staffs</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="6">6 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="weapon">Quarterstaff</set>
-			<set name="type">Staff</set>
-			<set name="attunement">true</set>
-			<set name="rarity">Very Rare</set>	
-			<set name="charges">10</set>
-		</setters>
-	</element>
-
 	<element name="Armreif der Unglückseligkeit" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_ARMREIF_DER_UNGLUECKSELIGKEIT">
 		<description>
 			<p>This item is cursed, it cannot be removed except with Greater Restoration.</p>
@@ -111,6 +31,99 @@
 			<stat name="strength" value="-2" />
 			<stat name="dexterity" value="1" />
 		</rules>
+	</element>
+	
+	<element name="Cloak of Glistening" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_CLOAKOFGLISTENING">
+		<description>
+			<p>While wearing this cloak, you can use a bonus action to make the cloak glisten in all colors of the rainbow. Grants a +1 bonus to performance.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>	
+		</setters>
+		<rules>
+		<stat name="performance" value="+1"/>
+		</rules>
+	</element>
+	
+	<element name="Refilling Pouch of Diamond Dust" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_DIAMOND_DUST">
+		<description>
+			<p>A pouch filled with diamond dust worth 250 gp</p>
+			<p class="indent">— if not completely empty the pouch refills after a long rest </p>
+			<p class="indent">— if completely empty the pouch refills after 1d4 days</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="cost" currency="gp">75000</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="weight" lb="1">1 lbs.</set>
+		</setters>
+	</element>
+		
+	<element name="Ring of Communication" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_RINGCOMMUNICATION">
+		<description>
+			<p>Part of a set of two identical rings. While worn they grant the ability to mentally communicate with the wearer of the other ring.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>	
+	
+	<element name="Ring of Pleh" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_RINGPLEH">
+		<description>
+			<p>This ring has ten charges. When you wear this ring, you can use a charge as an action to cause a splatter of green, brown, or gray goop to cover up to 1 sq. foot of material (or person) in a gross mess. It smells a little off and is hard to clean (It can take 10 minutes of scrubbing a hard surface or an hour of washing clothes), but is otherwise harmless. The ring regains 1 charge at dawn each day.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="rarity">Common</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+	
+	<element name="Silver Tuning Fork" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SILVERTUNINGFORK">
+		<description>
+			<p>When struck against a hard surface, a piercing RRRIIINGGGG resounds for up to 1 minute in an area of approximately 30ft.</p>
+			<p>Magic within range is enhanced:</p>
+			<p class="indent">— Spell Saving throws DC gain an additional 1d4</p>
+			<p class="indent">— Magical damage gains 1 additional damage die</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Spider Staff" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SPIDERSTAFF">
+		<description>
+			<p>The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack. </p>
+			<p>The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required. </p>
+			<p>The staff regains 1d6 + 4 expended charges each day at dusk. If you expend the staff's last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed. </p>
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>	
+			<set name="charges">10</set>
+		</setters>
 	</element>
 	
 </elements>
