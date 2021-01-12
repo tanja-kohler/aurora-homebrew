@@ -3,10 +3,21 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.5">
+		<update version="1.0.6">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	</info>
+	
+	<element name="Sorcerer's Ring" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_FYNNSRING">
+		<description>
+			<p>A slightly ostentatious ring that serves as a sorcerer spellcasting focus and doubles as  diamond component for the Chromatic Orb spell.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+		</setters>
+	</element>	
 	
 	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
 		<description>
@@ -100,7 +111,7 @@
 	
 	<element name="Trudust Blüten" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TRUDUST">
 		<description>
-			<p>Dieses Schlingkraut welches sich häufig an tropischen Bäumen befindet, wird wegen seiner starken, heilkräftigen Wirkung geschätzt. Die roten lanzettförmigen Blüten sind der einzige Teil der Pflanze, der zu Heilzwecken verwendet wird. Die Blüten können sowohl frisch als auch getrocknet zu einem Aufguss verarbeitet werden. 
+			<p>Dieses Schlingkraut, welches sich häufig an tropischen Bäumen befindet, wird wegen seiner starken, heilkräftigen Wirkung geschätzt. Die roten lanzettförmigen Blüten sind der einzige Teil der Pflanze, der zu Heilzwecken verwendet wird. Die Blüten können sowohl frisch als auch getrocknet zu einem Aufguss verarbeitet werden. 
 			Getrocknete Blüten halten sich etwa sechs Monate lang. Wird der Aufguss mit  Alkohol versetzt, so kann er zwei Jahre lang aufbewahrt werden – Alchemie DC 20.</p>
 			<p>Wirkung: Ein Tee aus 3 Blüten bringt 2W6+2 HP</p>
 		</description>
@@ -108,6 +119,18 @@
 			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Wolf Treats" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TREATS">
+		<description>
+			<p>A bag of dried meat and animal parts for wolves to chew on and enjoy</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">1 lbs.</set>
 		</setters>
 	</element>
 
