@@ -8,6 +8,17 @@
 		</update>
 	</info>
 	
+	<element name="Sorcerer's Ring" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_FYNNSRING">
+		<description>
+			<p>A slightly ostentatious ring that serves as a sorcerer spellcasting focus and doubles as  diamond component for the Chromatic Orb spell.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+		</setters>
+	</element>	
+	
 	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
 		<description>
 			<p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
