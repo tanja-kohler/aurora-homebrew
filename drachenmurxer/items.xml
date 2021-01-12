@@ -117,11 +117,11 @@
 			<p>A bag of dried meat and animal parts for wolves to chew on and enjoy</p>
 		</description>
 		<setters>
-			<set name="category">Adventuring Gear</set>
+			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">1 lbs.</set>
 		</setters>
-    </element>
+	</element>
 
 </elements>
 	
