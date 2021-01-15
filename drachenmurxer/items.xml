@@ -3,32 +3,22 @@
 	<info>
 		<name>Items</name>
 		<description>Nicht magische Gegenstände</description>
-		<update version="1.0.6">
+		<update version="1.0.7">
 			<file name="items.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/items.xml" />
 		</update>
 	</info>
+
 	
-	<element name="Sorcerer's Ring" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_FYNNSRING">
+	<element name="Bone Set" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_AUGURY_BONES">
 		<description>
-			<p>A slightly ostentatious ring that serves as a sorcerer spellcasting focus and doubles as  diamond component for the Chromatic Orb spell.</p>
+			<p>A set of vertebrae bones engraved with various symbols. Used for fortune telling.</p>
 		</description>
 		<setters>
 			<set name="category">Drachenmurxer Item</set>
-			<set name="type">Ring</set>
-			<set name="slot">ring</set>
-		</setters>
-	</element>	
-	
-	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
-		<description>
-			<p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Item</set>
-			<set name="cost" currency="gp">0</set>
+			<set name="cost" currency="gp">25</set>
 			<set name="weight" lb="0">0 lbs.</set>
 		</setters>
-        </element>
+	</element>
 	
 	<element name="Book" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_BOOK">
 		<description>
@@ -38,6 +28,43 @@
 			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="2">2 lbs.</set>
+		</setters>
+	</element>	
+	
+	<element name="Crystal Eye" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_CRYSTAL_EYE">
+		<description>
+			<p>A cut crystal eye, translucent, with blue iris.</p>
+			<p>The emblem of Vanyr, an open book in front of a sun, can be seen in it (spellcasting focus for Clerics of Vanyr).</p>.
+			<p>Can also be used for the Spell Clairvoyance.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">0 lbs.</set>
+		</setters>
+	</element>
+	
+	<element name="Diamonds" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_DIAMONDS">
+		<description>
+			<p>Shiny, shiny diamonds! In fact, these diamonds are so shiny they can bring somebody back from the dead - provided they have died within the last minute.</p>
+			<p>Can be used as material component for the spell Revivify (consumed by the spell).</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lbs.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	
+	<element name="Hat" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_HAT"> 
+		<description> <p>A fancy hat</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lbs.</set>
 		</setters>
 	</element>
 
@@ -50,43 +77,21 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">—</set>
 		</setters>
-	</element>	
+	</element>
 	
-	<element name="Kristallauge" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_CRYSTAL_EYE">
+	<element name="Pearl" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_PEARL">
 		<description>
-			<p>Ein Auge aus geschliffenem Kristall, durchscheinend mit Blauer Iris.</p>
-			<p>Das Emblem von Vanyr (Ein offnes Buch vor einer Sonne) ist darin zu sehen. (Spellcasting focus für Clerics von Vanyr)</p>
-			<p>Kann auch für den Spell Clairvoyance verwendet werden.</p>
+			<p>A glossy white pearl, not quite round, but with a wonderfully smooth surface. Can be used for the spell Identify.</p>
 		</description>
 		<setters>
 			<set name="category">Drachenmurxer Item</set>
 			<set name="cost" currency="gp">100</set>
 			<set name="weight" lb="0">0 lbs.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
 		</setters>
 	</element>
 	
-	<element name="Perle (für Identify)" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_PEARL">
-		<description>
-			<p>Eine glänzende Perle, nicht ganz rund, aber mit wunderbar glatter Oberfläche</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Item</set>
-			<set name="cost" currency="gp">100</set>
-			<set name="weight" lb="0">0 lbs.</set>
-		</setters>
-	</element>
-	
-	<element name="Knochenset" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_AUGURY_BONES">
-		<description>
-			<p>Ein Set aus Wirbelknochen mit verschiedenen Symbolen darauf. Wird zum Wahrsagen verwendet.</p>
-		</description>
-		<setters>
-			<set name="category">Drachenmurxer Item</set>
-			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="0">0 lbs.</set>
-		</setters>
-	</element>
-
 	<element name="Small Knife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_SMALLKNIFE">
 		<description>
 			<p>A small knife urchins like to keep concealed in their clothes. One can never be too careful after all!</p>
@@ -98,22 +103,23 @@
 			<set name="weight" lb="1">1 lbs.</set>
 		</setters>
 	</element>
-
-	<element name="Hat" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_HAT"> 
-		<description> <p>A fancy hat</p>
+	
+	<element name="Sorcerer's Ring" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_FYNNSRING">
+		<description>
+			<p>A slightly ostentatious ring that serves as a sorcerer spellcasting focus and doubles as  diamond component for the Chromatic Orb spell.</p>
 		</description>
 		<setters>
 			<set name="category">Drachenmurxer Item</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="1">1 lbs.</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
 		</setters>
-	</element>
+	</element>	
 	
-	<element name="Trudust Blüten" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TRUDUST">
+	<element name="Trudust Flower" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_TRUDUST">
 		<description>
-			<p>Dieses Schlingkraut, welches sich häufig an tropischen Bäumen befindet, wird wegen seiner starken, heilkräftigen Wirkung geschätzt. Die roten lanzettförmigen Blüten sind der einzige Teil der Pflanze, der zu Heilzwecken verwendet wird. Die Blüten können sowohl frisch als auch getrocknet zu einem Aufguss verarbeitet werden. 
-			Getrocknete Blüten halten sich etwa sechs Monate lang. Wird der Aufguss mit  Alkohol versetzt, so kann er zwei Jahre lang aufbewahrt werden – Alchemie DC 20.</p>
-			<p>Wirkung: Ein Tee aus 3 Blüten bringt 2W6+2 HP</p>
+			<p>This creeping herb, which is often found on tropical trees, is prized for its potent medicinal properties. The red lance-shaped flowers are the only part of the plant used for medicinal purposes. The flowers can be used fresh or dried to make an infusion. 
+			Dried flowers keep for about six months. If alcohol is added to the infusion, it can be stored for two years - Alchemy DC 20.</p>
+			<p>Effect: A tea made from 3 flowers restores 2W6+2 HP</p>
 		</description>
 		<setters>
 			<set name="category">Drachenmurxer Item</set>
@@ -133,6 +139,17 @@
 			<set name="weight" lb="0">1 lbs.</set>
 		</setters>
 	</element>
+	
+	<element name="Wooden Fife" type="Item" source="Drachenmurxer" id="ID_DRACHENMURXER_WOODENFIFE">
+		<description>
+			<p>This fife with delicate platinum inlay is beautifully crafted. It can be used as a bard spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lbs.</set>
+		</setters>
+        </element>
 
 </elements>
 	
