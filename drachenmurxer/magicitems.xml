@@ -3,7 +3,7 @@
 	<info>
 		<name>Magic Items</name>
 		<description>Magische Items - Homebrew</description>
-		<update version="1.0.5">
+		<update version="1.0.6">
 			<file name="magicitems.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/magicitems.xml" />
 		</update>
 	</info>
@@ -49,6 +49,22 @@
 		<rules>
 		<stat name="performance" value="+1"/>
 		</rules>
+	</element>
+	
+	<element name="Hew" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_HEW">
+		<description>
+			<p>This +1 battleaxe deals maximum damage when the wielder hits a plant creature or an object made of wood. The axe's creator was a dwarf smith who feuded with the dryads of a forest where he cut firewood. Whoever carries the axe feels uneasy whenever he or she travels through a forest.</p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type" addition="Battleaxe">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Battleaxe</set>
+			<set name="name-format">"Hew" Battleaxe</set>
+		</setters>
 	</element>
 	
 	<element name="Refilling Pouch of Diamond Dust" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_DIAMOND_DUST">
@@ -125,5 +141,24 @@
 			<set name="charges">10</set>
 		</setters>
 	</element>
+		
+	<!-- 
+	<element name="Sword of Kas" type="Magic Item" source="Drachenmurxer" id="ID_DRACHENMURXER_KAS">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Drachenmurxer Magic Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type" addition="Longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Longsword</set>
+			<set name="name-format">Sword of Kas</set>
+		</setters>
+	</element>
+	-->	
 	
 </elements>
