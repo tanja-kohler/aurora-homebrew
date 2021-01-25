@@ -4,7 +4,7 @@
 	<info>
 		<name>Companions</name>
 		<description>Winter Wölfe und wirds mehr</description>
-		<update version="1.0.4">
+		<update version="1.0.5">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/companions.xml" />
 		</update>
 	</info>
