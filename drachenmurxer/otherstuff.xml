@@ -3,7 +3,7 @@
 	<info>
 		<name>Alles Andere</name>
 		<description>Gottheiten, und co</description>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="otherstuff.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/otherstuff.xml" />
 		</update>
 	</info>
@@ -23,5 +23,27 @@
 			<description>God of Knowledge</description>
 		</sheet>
 	</element>
+	
+	<element name="Earthwalk" type="Spell" source="Drachenmurxer" id="ID_DRACHENMURXER_SPELL_EARTHWALK">
+		<supports>Cleric, Druid, Ranger, Wizard</supports>
+		<description>
+			<p>You touch a willing creature. The target gains a Burrow Speed of 25 ft and tremoursense with a 25 foot radius for the duration. With this Burrow Speed the creature can pass through non-magical stone and earth. The creature does not leave behind a tunnel.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a small chunk of polished granite</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>	
 	
 </elements>
