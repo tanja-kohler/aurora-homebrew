@@ -4,7 +4,7 @@
 	<info>
 		<name>Companions</name>
 		<description>Winter Wölfe und wirds mehr</description>
-		<update version="1.0.4">
+		<update version="1.0.5">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/tanja-kohler/aurora-homebrew/master/drachenmurxer/companions.xml" />
 		</update>
 	</info>
@@ -57,10 +57,10 @@
 	</element>
 	<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_CUB">
 		<description>
-			<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 2 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</p>
+			<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 2 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</description>
+			<description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1d6 + 4 piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</description>
 		</sheet>
 	</element>
 	
@@ -74,7 +74,7 @@
 			<set name="wisdom">12</set>
 			<set name="charisma">8</set>
 			<set name="ac">10 (natural armor)</set>
-			<set name="hp">13</set>
+			<set name="hp">55</set>
 			<set name="speed">50 ft.</set>
 			<set name="languages">Owner</set>
 			<set name="challenge">—</set>
@@ -90,9 +90,10 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="10" />
-			<stat name="companion:hp:max" value="13" bonus="base" />
-			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:hp:max" value="55" bonus="base" />
+			<stat name="companion:speed" value="50" bonus="base" />
 			<stat name="companion:perception:proficiency" value="+4"/>
+			<stat name="companion:stealth:proficiency" value="+2"/>
 		</rules>
 	</element>
 	<element name="Bite" type="Companion Action" source="Drachenmurxer" id="ID_DRACHENMURXER_COMPANION_ACTION_WINTERWOLF_BITE_YOUNG">
